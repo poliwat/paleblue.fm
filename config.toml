@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "paleblue.fm.gitlab.io"
 languageCode = "en-us"
 title = "Paleblue.fm"
 theme = "timer-hugo"
