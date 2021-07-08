@@ -1,8 +1,7 @@
-image: monachus/hugo
+image: registry.gitlab.com/pages/hugo:latest
 
-before_script:
-  - git submodule init
-  - git submodule update --force
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
 
 pages:
   script:
