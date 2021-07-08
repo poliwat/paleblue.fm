@@ -4,18 +4,25 @@
     box-shadow: none;
 }
 
+html {
+  background: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+}
+
 header {
   position: relative;
   background-color: black;
   height: 75vh;
   min-height: 64rem;
   width: 100%;
-  overflow: hidden;
-  top: 6em;
+  top: 5em;
 }
 
 body {
-    background-color: #4a90e2;
+    background-color: black;
 }
 
 header video {
@@ -51,7 +58,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('53sm.pnghu') black no-repeat center center scroll;
+    background: black no-repeat center center scroll;
   }
   header video {
     display: none;
