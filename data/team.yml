@@ -1,0 +1,38 @@
+enable  : true
+title   : Meet the Team
+members  :
+  - name  : Michael Betts
+    image : images/team/mike.png
+    designation : Founder, Executive Producer
+    description : Michael Betts is a digital media artist with a backround in Psychology and Music from the University of California, Santa Cruz. He's interested in combining art and new technologies to document inheard voices and build ad free human friendly media that connects us through our differences.
+    # facebook    : https://www.fb.com/themefisher
+    # twitter     : https://www.twitter.com/themefisher
+    # linkedIn    : https://www.linkedin.com/themefisher
+    # googleplus  : https://plus.google.com/themefisher
+
+  - name  : Helen Longstreth
+    image : images/team/helen.png
+    designation : Editor
+    description : Helen Longstreth is a writer based in San Francisco. She studied at the University of Manchester, and holds an MA in Creative Writing at Goldsmiths. She has worked as the assistant editor for the online magazines motherland and POSTmatter. She writes about art and culture in the digital age.
+    # facebook    : https://www.fb.com/themefisher
+    # twitter     : https://www.twitter.com/themefisher
+    # linkedIn    : https://www.linkedin.com/themefisher
+    # googleplus  : https://plus.google.com/themefisher
+
+  - name  : Theodora Alexander
+    image : images/team/ted.png
+    designation : Producer
+    description : Theodora (Teddy) Alexander is an independent producer based in San Francisco. She aims to tell stories that make people laugh and those that expose people to new ideas and perspectives. You can find her art, thoughts, and other projects @ deetsa.com
+    # facebook    : https://www.fb.com/themefisher
+    # twitter     : https://www.twitter.com/themefisher
+    # linkedIn    : https://www.linkedin.com/themefisher
+    # googleplus  : https://plus.google.com/themefisher
+
+  - name  : Nick Kush
+    image : images/team/niko.png
+    designation : Producer
+    description : Nick is a builder currently travelling and building homes from mostly local build materials. He studied Sociology at the University of California, Santa Cruz, has a touring band @kushberryjams, and enjoys smelling things.
+    # facebook    : https://www.fb.com/themefisher
+    # twitter     : https://www.twitter.com/themefisher
+    # linkedIn    : https://www.linkedin.com/themefisher
+    # googleplus  : https://plus.google.com/themefisher

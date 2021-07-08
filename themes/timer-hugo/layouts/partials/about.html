@@ -1,0 +1,26 @@
+{{ if .Site.Params.about.enable }}
+{{ "<!-- About Section Start -->" | safeHTML }}
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+                    {{ with .Site.Params.about.title }}<h2>{{ . }}</h2>{{ end }}
+                    {{ with .Site.Params.about.content }}<p>{{ . | safeHTML }}</p>{{ end }}
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
+                  <figure class="figure">
+                    {{ with .Site.Params.about.image }}
+                      <img src="{{ . | absURL }}" alt="about-image" class="figure-img img-fluid rounded">
+                      <figcaption class="figure-caption">Earth by <a href="https://www.deviantart.com/annekatran" alt="Anneka Tran Art"> Anneka Tran </a> @ Deviant Art.</figcaption>
+                    </figure>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- About Section End -->" | safeHTML }}
+{{ end }}

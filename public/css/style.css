@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+body {
+  font-family: 'Indie Flower', "Roboto", sans-serif;
+}
+.global-page-header, .about-feature .about-feature-1, .cd-headline.slide .cd-words-wrapper, #call-to-action {
+  background-color: #0071bc;
+}
+a, #footer .social li a {
+  color: #0071bc;
+}
+a:hover {
+  text-decoration: underline;
+}

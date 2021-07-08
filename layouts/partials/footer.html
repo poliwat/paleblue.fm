@@ -1,0 +1,132 @@
+{{ "<!-- Footer Section Start -->" | safeHTML }}
+<footer id="footer">
+
+  <div class="container">
+    <div class="col-xs-12">
+        <div>
+
+        <div id="fc-embed-loader" class="fc-direct-embed-loader" style="top: 257.5px;"></div>
+
+        <div id="fc-embed-main-box" class="fc-embed-main-box"> <iframe id="fc-embed-frame" style="height:615px; width:95%; border:1px solid #dddddd; margin: 0 auto 0 auto;" src="" scrolling="no"></iframe>
+
+        </div>
+
+        <body onload="embed_frame('NTc2MTg=')">
+
+        </div>
+    </div>
+  </div>
+  <!-- End container -->
+
+    <div class="container">
+      <div class="row">
+            <div class="col-md-4 text-center text-lg-left text-md-left">
+              <p class="copyright">
+                  <span>
+                      <script>document.write(new Date().getFullYear())</script>
+                  </span> Made with 💕 by
+                  <a href="https://poliw.at" target="_blank">poliw.at</a>.
+                  <br> Copyright: OSOD Agreement 2019
+              </p>
+              <!-- <span>Subscribe</span> <br>
+                <ul class="social text-center text-md-right text-lg-right">
+                  <li><a href='https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&amp;isi=691797987&amp;ius=googleplaymusic&amp;apn=com.google.android.music&amp;link=https://play.google.com/music/m/I4xiicvnopa7n23f6zhbsrtbcrm?t%3DPaleblue.fm%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16' rel='nofollow'><img width='125px' alt='Listen on Google Play Music' src='https://play.google.com/intl/en_us/badges-music/images/badges/en_badge_web_music.png'/></a></li>
+                  <li><a href="https://www.stitcher.com/podcast/palebluefm?refid=stpr"><img src="/images/stitcher-badge.png" class="img-badge" alt="Stitcher"></a></li>
+                  <li><a href="https://open.spotify.com/show/2OLvl6wgIQTGNVF06Ekoe3"></a><img src="/images/Spotify-badge.png" class="img-badge" alt="Listen on Spotify"></li>
+                  <li><a href="https://podcasts.apple.com/us/podcast/paleblue-fm/id1461520438"><img src="/images/itunes-badge.png" alt="Listen on iTunes" class="img-badge"></a></li>
+                </ul> -->
+            </div>
+            <div class="col-md-8 col-12">
+                {{ "<!-- Social Media -->" | safeHTML }}
+                <ul class="social text-center text-md-right text-lg-right">
+                    <!-- <li>
+                        <a href=https://poliw.at class="facebook">
+                            <i class="ion-social-facebook"></i> FB
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="twitter">
+                            <i class="ion-social-twitter"></i> Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="linkedin">
+                            <i class="ion-social-linkedin"></i> IG
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="googleplus">
+                            <i class="ion-social-googleplus"></i>
+                        </a>
+                    </li> -->
+
+                    <li>
+                      <div class="external">
+                        <a href="/about">
+                          <span>Learn about PBD</span>
+                        </a>
+                      </div>
+                      <div class="external">
+                        <a href="https://www.facebook.com/paleblue.fm/">
+                          <span>Facebook</span>
+                        </a>
+                      </div>
+                      <div class="external">
+                        <a href="https://twitter.com/palebluedotfm">
+                          <span>Twitter</span>
+                        </a>
+                      </div>
+                      <div class="external">
+                        <a href="https://www.instagram.com/palebluedotfm/">
+                          <span>Instagram</span>
+                        </a>
+                      </div>
+                      <div class="external">
+                        <a href="https://soundcloud.com/palebluedotfm">
+                          <span>SoundCloud</span>
+                        </a>
+                      </div>
+                      <div class="external">
+                        <a href="mailto:palebluedotfm@gmail.com">
+                          <span>Contact Us</span>
+                        </a>
+                      </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  </div>
+</footer>
+{{ "<!-- footer section end -->" | safeHTML }}
+
+{{ "<!-- jquery -->" | safeHTML }}
+<script src="{{ "plugins/jQurey/jquery.min.js" | absURL }}"></script>
+{{ "<!-- Form Validation -->" | safeHTML }}
+<script src="{{ "plugins/form-validation/jquery.form.js" | absURL }}"></script>
+<script src="{{ "plugins/form-validation/jquery.validate.min.js" | absURL }}"></script>
+{{ "<!-- slick slider -->" | safeHTML }}
+<script src="{{ "plugins/slick/slick.min.js" | absURL }}"></script>
+{{ "<!-- bootstrap js -->" | safeHTML }}
+<script src="{{ "plugins/bootstrap/bootstrap.min.js" | absURL }}"></script>
+{{ "<!-- wow js -->" | safeHTML }}
+<script src="{{ "plugins/wow-js/wow.min.js" | absURL }}"></script>
+{{ "<!-- slider js -->" | safeHTML }}
+<script src="{{ "plugins/slider/slider.js" | absURL }}"></script>
+{{ "<!-- Fancybox -->" | safeHTML }}
+<script src="{{ "plugins/facncybox/jquery.fancybox.js" | absURL }}"></script>
+{{ "<!-- template main js -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+{{ "<!-- google analitycs -->" | safeHTML }}
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', '{{ .Site.Params.googleAnalitycsID }}', 'auto');
+    ga('send', 'pageview');
+</script>
+</body>
+
+</html>

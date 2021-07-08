@@ -1,0 +1,25 @@
+{{ if .Site.Params.cta.enable }}
+{{ "<!-- Call To Action Section Start -->" | safeHTML }}
+<section id="call-to-action">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block wow fadeInDown">
+                  Stay updated when we release content and host events
+                <form action="https://formspree.io/palebluedotfm@gmail.com" method="POST">
+                  name 👁 <input type="text" name="name"> &&
+                  email 🤓️ <input type="email" name="_replyto">
+                  <input type="submit" value="Send">
+                </form>
+                <br>
+                    {{ with .Site.Params.cta.title }}<h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">{{ . }}</h1>{{ end }}
+                    {{ with .Site.Params.cta.content }}<p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">{{ . | safeHTML }}</p>{{ end }}
+                    <a href="{{ .Site.Params.cta.btnURL }}" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">{{ .Site.Params.cta.btnText }}</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+{{ "<!-- Call To Action Section End -->" | safeHTML }}
+{{ end }}

@@ -1,0 +1,69 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Paleblue.fm"
+theme = "timer-hugo"
+publishDir = "docs"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Site Menus
+[menu]
+    # Navbar Menus
+    [[menu.nav]]
+        name    = "Life, The Musical"
+        url     = "/pbd"
+        weight  = 1
+
+# Site Params
+[params]
+    home = ""
+    logo = "images/logo.png"
+    # Meta data
+    dateFormat = "6 January 2006"
+    description = "Radio Show and Podcast"
+    author = "Michael Betts"
+    # Google Analitycs
+    googleAnalitycsID = "UA-139342330-1"
+
+    # Banner Section
+    [params.banner]
+        enable  = true
+        bgImage = "images/slider.jpg"
+        heading = "Paleblue.fm"
+        description = "open source and human centric philosophy"
+        btn     = true
+        btnText = "Latest Episode"
+        btnURL  = "/episodes/ep1-welcome-to-my-sound-library/"
+        [[params.banner.flipText]]
+            title   = "All of Us"
+        [[params.banner.flipText]]
+            title   = "Pale Blue Dawt"
+        [[params.banner.flipText]]
+            title   = "Life the Musical"
+
+    # Homepage About Section
+    [params.about]
+        enable  = true
+        title   = "Life, The Musical"
+        content = "Paleblue.fm is a podcast and radio show aired weekly live on 91.1fm at KZSU Stanford in the bay area. It is a hybrid between a podcast and a music show, where music augments field recordings and interviews. This includes but is not limited to; intimate gatherings, DIY and original music, classes, ceremonies, funerals, reunions, and people talking candidly about the things that matter to them most.<br><br>Our pale blue focus has been on recording things that would otherwise not be recorded, giving voice to those otherwise left unheard and finding new ways to celebrate conections through our differences."
+        image   = "images/about/about.jpg"
+
+    # Call to Action
+    [params.cta]
+        enable  = true
+        title   = " Made with <3 "
+        content = "Support projects for the betterment of humanity"
+        btnText = "Listen"
+        btnURL  = "/episodes/"
+
+    # Portfolio Section On Homepage
+    # [params.portfolio]
+    #     enable  = true
+    #     title   = "Projects"
+    #     subtitle= "Open source and human centric driven projects for the benefit of all communities"
+    #
+    # # Feature Product Section
+    # [params.featureProduct]
+    #     enable  = true
+    #     title   = "listen listen listen listen"
+    #     subtitle= "ASDASDASDASDASDADS"

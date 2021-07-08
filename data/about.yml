@@ -1,0 +1,21 @@
+enable  : true
+title   : What makes us, us
+description: >
+      In 1990 Carl Sagan convinced NASA to turn around Voyager 1 and take a picture of the earth from the furthest distance ever seen by man. The photo captured only a pale blue dot, the size of a dust mote, in a vacuum of dark space.
+      paleblue.fm is a non-profit organisation that produces creative tech projects for all humans, under the the guidelines of open source and free for all.<br><br>Through these projects we aim to acknowledge and harness the realities we share - all the beauty and fragility of life on a pale blue dot - and in so doing to celebrate human potential.
+      At a time when dramatic changes in modern technology are impacting and often disrupting every level of society, we want use those same forces to forge connections - to document, preserve and nurture our ties with nature and each other.<br><br> We aim to leverage technology alongside art combining digital and physical mediums to augment lived experience.
+      <br><br>Our dream is to reach out to anyone and everyone who’d like join the conversation and help us grow our pale blue dot world.
+
+image   : images/Pale_Blue_Dot.png
+aboutItem:
+  - title : Open Source
+    description: >
+      Open source philosophy grants all humans the right to use, study, change, and share the audio, video, or physical product in any way in modified and unmodified form. That’s what freedom looks like to us, freedom is essential to enabling community development.
+
+  - title : Human Centric
+    description: >
+      Good producers, creators, and engineers involve the human perspective in all steps of the problem-solving process. Human involvement typically takes place in observing the problem within context, brainstorming, conceptualizing, developing, and implementing the solution.
+
+  - title : For the People
+    description: >
+      How do you enable community ties? You record the people. The next lesson is in the action. Our digital content is always free for everyone, our production focus is on people whom haven't been heard before. All Digital media should be free and we're paving that road.

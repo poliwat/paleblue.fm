@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+body {
+  background-color: #4a90e2;
+  font-family: 'Indie Flower', "Roboto", sans-serif;
+}
+
+#homey {
+  background-color: #4a90e2;
+}
+.global-page-header, .about-feature .about-feature-1, .cd-headline.slide .cd-words-wrapper, #call-to-action {
+  background-color: #0071bc;
+}
+a, #footer .social li a {
+  color: #0071bc;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.top-bar img {
+  max-width: 120px;
+}
+
+figure:hover img {
+    transform: scale3d(1.2,1.1,1);
+}
+
+.single-post {
+    padding: 20px 0 20px;
+}
+.single-post {
+    padding: 20px 0 20px;
+}
+
+.single-post .post-content {
+    padding: 20px 0;
+}
+
+#episodes-full-width {
+    padding: 0px 0 80px;
+}
+
+.img-badge {
+  max-width: 125px;
+}
